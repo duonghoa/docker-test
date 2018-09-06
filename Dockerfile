@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER HoanKi<hoanki2212@gmail.com>
+MAINTAINER Sonata
 
 RUN DEBIAN_FRONTEND=noninteractive
 
