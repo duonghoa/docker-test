@@ -1,7 +1,7 @@
 FROM ubuntu
 MAINTAINER Kimbro Staken 
 
-RUN apt-get install -y python-software-properties python python-setuptools ruby rubygems
+RUN apt-get install -y python3.6 ruby rubygems
 RUN add-apt-repository ppa:chris-lea/node.js
 RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
 RUN apt-get update
